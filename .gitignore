@@ -1,0 +1,14 @@
+# 가상환경
+.venv/
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# 환경변수
+.env
+
+# Alembic
+alembic.ini
+versions/*.pyc
