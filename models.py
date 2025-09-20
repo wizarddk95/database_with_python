@@ -11,5 +11,3 @@ class User(Base):
     age = Column(Integer, nullable=True)
     email = Column(String(255), unique=True, nullable=False)
     created_at = Column(DateTime, server_default=func.now())
-
-
